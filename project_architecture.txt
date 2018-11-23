@@ -1,0 +1,20 @@
+|Tasks // root folder
+|__Android*
+|__ios*
+|__node_modules
+|__.buckconfig
+|__.flowconfig
+|__.gitignore
+|__.watchmanconfig
+|__index.android.js //android entry point
+|__index.ios.js// iOS entry point
+|__package.json //npm package list
+
+
+
+here we have made completely seprate folders to keep platform specific code for ios and android . now  what we aim for is to 
+write the logic seprately . cause the logic is the common part in both the folders 
+
+so let this new folders of logic be : app 
+here we keep - components and -assets 
+with components - JS logic and style 
