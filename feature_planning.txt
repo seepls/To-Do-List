@@ -10,7 +10,7 @@ here the following what we aim for :
  categorize by setting up icons . filter by icons 
  
  1.generate a list of default items 
- 2. using text feild to input from the native keyboard . 
+ 2. using text feild to input their own tasks from the native keyboard . 
  3. make the list scrollable .
  4. mark the item as completed .
  
