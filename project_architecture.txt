@@ -18,3 +18,29 @@ write the logic seprately . cause the logic is the common part in both the folde
 so let this new folders of logic be : app 
 here we keep - components and -assets 
 with components - JS logic and style 
+
+
+proposed structure  :
+|Tasks
+|_ app
+|____ components
+|_____TasksList // list of task
+|________index.js
+|_________styles.js
+|__________TasksListCell // each indivisual row of the list
+|___________index.js
+|__________style.js
+|___________TasksListInput//keyboard input feild
+|____________index.js
+|__________styles.js
+|___________images
+|___Android
+|_____ios
+|______node_modules
+|______--.buckconfig
+|_________.flowconfig
+|___.gitignore
+|_____.watchmanconfig
+|______index.android.js
+|____index.ios.js
+|__package.json
