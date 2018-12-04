@@ -1,0 +1,4 @@
+to initialize your new project :
+react-native init name
+react-native run-ios
+
